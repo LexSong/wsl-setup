@@ -32,3 +32,8 @@ See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) 
 >     # Work around incorrect file locking https://github.com/Microsoft/WSL/issues/2395
 >     use-sqlite-wal = false
 
+## Install Nix
+
+[Nix Package Manager Guide](https://nixos.org/nix/manual/)
+
+    sh <(curl https://nixos.org/nix/install)
