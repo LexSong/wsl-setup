@@ -34,6 +34,6 @@ See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) 
 
 ## Install Nix
 
-[Nix Package Manager Guide](https://nixos.org/nix/manual/)
-
     sh <(curl https://nixos.org/nix/install)
+    
+[Nix Package Manager Guide](https://nixos.org/nix/manual/)
