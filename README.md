@@ -18,3 +18,17 @@ Open PowerShell as Administrator and run:
         sudo apt upgrade
     
 See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) for more details.
+
+## Install Nix under WSL
+
+[Source](https://dev.to/notriddle/installing-nix-under-wsl-2eim)
+
+    sudo mkdir /etc/nix
+    sudo vim /etc/nix/nix.conf
+
+`/etc/nix/nix.conf`
+>     # Work around missing cgroups support https://github.com/Microsoft/WSL/issues/994
+>     sandbox = false
+>     # Work around incorrect file locking https://github.com/Microsoft/WSL/issues/2395
+>     use-sqlite-wal = false
+
