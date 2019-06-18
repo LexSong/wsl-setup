@@ -19,7 +19,7 @@ Open PowerShell as Administrator and run:
     
 See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) for more details.
 
-## Install Nix under WSL
+## Prepare installing Nix under WSL
 
 [Source](https://dev.to/notriddle/installing-nix-under-wsl-2eim)
 
