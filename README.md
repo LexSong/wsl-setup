@@ -21,8 +21,6 @@ See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) 
 
 ## Prepare installing Nix under WSL
 
-[Source](https://dev.to/notriddle/installing-nix-under-wsl-2eim)
-
     sudo -i 
     mkdir /etc/nix
     # Work around missing cgroups support https://github.com/Microsoft/WSL/issues/994
@@ -30,6 +28,8 @@ See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) 
     # Work around incorrect file locking https://github.com/Microsoft/WSL/issues/2395
     echo 'use-sqlite-wal = false' >> /etc/nix/nix.conf
     exit
+
+[Source](https://dev.to/notriddle/installing-nix-under-wsl-2eim)
 
 ## Install Nix
 
