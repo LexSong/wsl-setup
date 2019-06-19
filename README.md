@@ -33,6 +33,6 @@ See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) 
 
 ## Install Nix
 
-    sh <(curl https://nixos.org/nix/install)
+    curl https://nixos.org/nix/install | bash
     
 [Nix Package Manager Guide](https://nixos.org/nix/manual/)
