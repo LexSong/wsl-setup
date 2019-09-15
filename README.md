@@ -21,7 +21,7 @@ See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) 
 
 ## Prepare installing Nix under WSL
 
-    sudo -i 
+    sudo -i
     mkdir /etc/nix
     # Work around missing cgroups support https://github.com/Microsoft/WSL/issues/994
     echo 'sandbox = false' >> /etc/nix/nix.conf
