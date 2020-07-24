@@ -8,8 +8,7 @@ Open PowerShell as Administrator and run:
     
 ## Install Ubuntu
 
-* Install [Ubuntu](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) from Microsoft Store.
-
+* Download and install [Linux distro packages](https://docs.microsoft.com/en-us/windows/wsl/install-manual) 
 * Setting up a new Linux user account
 
 * Update and upgrade packages
