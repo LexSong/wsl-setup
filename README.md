@@ -9,7 +9,7 @@
 ### [Install Linux distributions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-6---install-your-linux-distribution-of-choice)
 
 * [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71)
-* [Alpine WSL](https://www.microsoft.com/store/apps/9p804crf0395)
+* [Alpine WSL](https://github.com/yuk7/AlpineWSL)
 
 ## Guide to Install Nix on Alpine Linux.
 
