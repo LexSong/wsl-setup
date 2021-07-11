@@ -9,7 +9,7 @@
        dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
        dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
     
-   to enable WSL and Virtual Machine Platform.
+   **Restart** the machine to enable WSL and Virtual Machine Platform.
    
 2. Download and install the Linux kernel update package:
 
