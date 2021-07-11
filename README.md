@@ -2,7 +2,22 @@
 
 ***This doc is currently being revised and updated to WSL 2.***
 
-### [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+### [WSL 2 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+1. Open PowerShell as Administrator and run:
+
+       dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+       dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+    
+   to enable WSL and Virtual Machine Platform.
+   
+2. Download and install the Linux kernel update package:
+
+   [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+   
+3. Set WSL 2 as the default version:
+
+       wsl --set-default-version 2
 
 ### Install [AlpineWSL](https://github.com/yuk7/AlpineWSL)
 
