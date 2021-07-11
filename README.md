@@ -1,21 +1,23 @@
 # Setting Up a WSL Environment
 
-***This doc is currently being revised and updated to WSL 2.***
-
 ## Install WSL 2
 
 1. Open PowerShell as Administrator and run:
 
-       dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-       dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-    
+   ```powershell
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+   ```    
+
    **Restart** the machine to enable WSL and Virtual Machine Platform.
    
 2. Download and install the [WSL2 Linux kernel update package](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi).
    
 3. Set WSL 2 as the default version:
 
-       wsl --set-default-version 2
+   ```batch
+   wsl --set-default-version 2
+   ```
        
 ## Install AlpineWSL
 
@@ -46,18 +48,22 @@ exit
 
 To change the default user, run:
 
-```bat
+```batch
 Alpine.exe config --default-user <USERNAME>
 ```
 
-## Install Nix on Alpine Linux.
+## Install Nix
 
-    sh <(curl -L https://nixos.org/nix/install)
+```shell
+curl -L https://nixos.org/nix/install | sh
+```
 
 ## Install Miniconda
 
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    bash Miniconda3-latest-Linux-x86_64.sh
+```shell
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
 
 ## References
 
