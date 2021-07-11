@@ -1,38 +1,25 @@
 # Setting Up a WSL Environment
 
-## Install the Windows Subsystem for Linux
+***This doc is currently being revised and updated to WSL 2.***
 
-Open PowerShell as Administrator and run:
+## WSL Installation Guide
 
-    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-    
-## Install Ubuntu
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-* Download and install [Linux distro packages](https://docs.microsoft.com/en-us/windows/wsl/install-manual) 
-* Setting up a new Linux user account
+### [Manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
 
-* Update and upgrade packages
+### [Install Linux distributions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-6---install-your-linux-distribution-of-choice)
 
-        sudo apt update
-        sudo apt upgrade
-    
-See the [WSL documentation](https://docs.microsoft.com/zh-tw/windows/wsl/about) for more details.
+* [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71)
+* [Alpine WSL](https://www.microsoft.com/store/apps/9p804crf0395)
 
-## Prepare installing Nix under WSL
+## Guide to Install Nix on Alpine Linux.
 
-    sudo -i
-    mkdir /etc/nix
-    # Work around missing cgroups support https://github.com/Microsoft/WSL/issues/994
-    echo 'sandbox = false' >> /etc/nix/nix.conf
-    # Work around incorrect file locking https://github.com/Microsoft/WSL/issues/2395
-    echo 'use-sqlite-wal = false' >> /etc/nix/nix.conf
-    exit
-
-[Source](https://dev.to/notriddle/installing-nix-under-wsl-2eim)
+[A minimal Nix development environment on WSL.](https://github.com/vereis/blog/issues/22#5)
 
 ## Install Nix
 
-    curl https://nixos.org/nix/install | bash
+    sh <(curl -L https://nixos.org/nix/install)
     
 [Nix Package Manager Guide](https://nixos.org/nix/manual/)
 
