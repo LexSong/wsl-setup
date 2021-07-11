@@ -2,9 +2,9 @@
 
 ## Install WSL 2
 
-1. Open PowerShell as Administrator and run:
+1. Open the Command Prompt as Administrator and run: 
 
-   ```powershell
+   ```batch
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
    ```
