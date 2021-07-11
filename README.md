@@ -17,9 +17,9 @@
 
        wsl --set-default-version 2
        
-## Install [AlpineWSL](https://github.com/yuk7/AlpineWSL)
+## Install AlpineWSL
 
-* Download the latest release [here](https://github.com/yuk7/AlpineWSL/releases).
+* Download [AlpineWSL](https://github.com/yuk7/AlpineWSL/releases).
 * Extract the zip file.
 * Run `Alpine.exe` to extract rootfs and register to WSL.
 
@@ -35,5 +35,6 @@
 ## References
 
 * [WSL 2 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* [Wsldl documentation for AlpineWSL](https://wsldl-pg.github.io/docs/)
 * [A minimal Nix development environment on WSL.](https://cbailey.co.uk/posts/a_minimal_nix_development_environment_on_wsl)
 * [Nix Package Manager Guide](https://nixos.org/nix/manual/)
