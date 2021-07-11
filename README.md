@@ -13,7 +13,7 @@
 
 ## Guide to Install Nix on Alpine Linux.
 
-[A minimal Nix development environment on WSL.](https://github.com/vereis/blog/issues/22#5)
+[A minimal Nix development environment on WSL.](https://cbailey.co.uk/posts/a_minimal_nix_development_environment_on_wsl)
 
 ## Install Nix
 
