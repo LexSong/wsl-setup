@@ -23,6 +23,33 @@
 2. Extract the zip file.
 3. Run `Alpine.exe` to extract rootfs and register to WSL.
 
+## Install Packages and Create the Default User
+
+Run `Alpine.exe` again to open the shell as **root**:
+
+```shell
+# Upgrade installed packages 
+apk -U upgrade
+
+# Install required packages
+apk add --no-cache curl sudo xz
+
+# Create the wheel group as sudoers
+echo '%wheel ALL=(ALL) ALL' > /etc/sudoers.d/wheel
+
+# Create new user and add to the wheel group
+adduser --ingroup wheel <USERNAME>
+
+# Leave the root shell
+exit
+```
+
+To change the default user, run:
+
+```bat
+Alpine.exe config --default-user <USERNAME>
+```
+
 ## Install Nix on Alpine Linux.
 
     sh <(curl -L https://nixos.org/nix/install)
