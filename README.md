@@ -2,9 +2,7 @@
 
 ***This doc is currently being revised and updated to WSL 2.***
 
-## WSL Installation Guide
-
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+## [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 ### [Manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
 
