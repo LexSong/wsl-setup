@@ -19,9 +19,9 @@
        
 ## Install AlpineWSL
 
-* Download [AlpineWSL](https://github.com/yuk7/AlpineWSL/releases).
-* Extract the zip file.
-* Run `Alpine.exe` to extract rootfs and register to WSL.
+1. Download [AlpineWSL](https://github.com/yuk7/AlpineWSL/releases).
+2. Extract the zip file.
+3. Run `Alpine.exe` to extract rootfs and register to WSL.
 
 ## Install Nix on Alpine Linux.
 
