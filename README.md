@@ -2,14 +2,13 @@
 
 ***This doc is currently being revised and updated to WSL 2.***
 
-## [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+### [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-### [Manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
+### Install [AlpineWSL](https://github.com/yuk7/AlpineWSL)
 
-### [Install Linux distributions](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-6---install-your-linux-distribution-of-choice)
-
-* [Ubuntu 20.04 LTS](https://www.microsoft.com/store/apps/9n6svws3rx71)
-* [Alpine WSL](https://github.com/yuk7/AlpineWSL)
+* Download the latest release [here](https://github.com/yuk7/AlpineWSL/releases).
+* Extract the zip file.
+* Run `Alpine.exe` to extract rootfs and register to WSL.
 
 ## Guide to Install Nix on Alpine Linux.
 
