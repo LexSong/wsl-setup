@@ -74,3 +74,4 @@ bash Miniconda3-latest-Linux-x86_64.sh
 - [Wsldl documentation for AlpineWSL](https://wsldl-pg.github.io/docs/)
 - [A minimal Nix development environment on WSL.](https://cbailey.co.uk/posts/a_minimal_nix_development_environment_on_wsl)
 - [Nix Package Manager Guide](https://nixos.org/manual/nix/stable/)
+- [Command Reference for New CLI](https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix.html)
