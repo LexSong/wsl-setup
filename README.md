@@ -51,14 +51,21 @@ To change the default user, run:
 Alpine.exe config --default-user <USERNAME>
 ```
 
-## Install Nix
+## Install Nix (Unstable)
 
 ```shell
 # Download and install Nix 
 curl -L https://nixos.org/nix/install | sh
 
 # Update the shell profile for Nix
-echo ". /home/<USERNAME>/.nix-profile/etc/profile.d/nix.sh" >> ~/.profile
+echo '. /home/<USERNAME>/.nix-profile/etc/profile.d/nix.sh' >> ~/.profile
+
+# Update Nix to unstable
+nix-env -f '<nixpkgs>' -iA nixUnstable
+
+# Enable experimental features
+mkdir -p ~/.config/nix
+echo 'experimental-features = nix-command flakes' >> ~/.config/nix/nix.conf
 ```
 
 ## Install Miniconda
